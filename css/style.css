@@ -1,0 +1,248 @@
+body{
+    background: pink;
+}
+#row1{
+    height: 50px;
+    width: 100%;
+    background: white;
+}
+.top_icon {
+    margin-top: 7px;
+    color: white;
+}
+.top_icon i{
+    background: #d2d2d2;
+    padding: 10px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.top_icon i:first-child{
+    margin-left: 0px;
+    
+}
+.top_icon i:hover{
+    background: #ee802f;
+}
+.top_menu{
+    margin-top: 15px;
+}
+.top_menu ul{}
+.top_menu ul li{
+    display: inline-block;
+}
+.top_menu ul li a{
+    color: #97455f;
+    text-decoration: none;
+
+}
+/*--------row2---*/
+#row2{
+    height: 200px;width: 100%;
+    background: #ebebeb;
+}
+.logo{
+    font-family: Georgia;
+    
+}
+.m-t{
+    margin-top: 50px;
+}
+.logo h3::first-letter{
+    font-size: 40px;    
+}
+.logo_r{
+    margin-top: 27px;
+    margin-left: -106px;
+    border-left: 2px solid #000;
+    padding-left: 2px;
+    height: 37px;
+}
+.search_form{
+   margin-top: 27px;
+
+}
+
+.btn-default {
+    color: #fff !important;
+    background-color: #97455f !important;
+    text-transform: uppercase;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+.custom_form{
+    border-radius: 4px 0px 0px 4px !important;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff !important;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    color: gray!important;
+}
+/*---------row3------*/
+#row3{
+    height: 200px;
+    background: #ebebeb;
+}
+/*--------row-4------*/
+#row4{
+    height: 400px;
+    width: 100%;
+    background: #fff;
+    
+}
+.slider_section{
+    width: 1139px;
+    margin-top: -148px;
+    background: white;
+    
+}
+.item img{
+    width: 1100px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.item{
+    margin-bottom: 70px;
+}
+.carousel-caption{
+    background: #adadad;
+    width: 610px;
+    height: -5px;
+    margin-left: 260px;
+    color: black;
+}
+.carousel-caption h2{}
+.carousel-caption p{}
+.carousel-indicators li{
+    border: 2px solid #333333;
+    background: #333333;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 2px;
+}
+.carousel-indicators .active{
+border: 2px solid #333333;
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 2px;
+}
+/*--------row-5------*/
+#row5{
+    height: 340px;
+    width: 100%;
+    background: white;
+}
+.hr_role{
+    width: 1100px;
+    background: url(../image/hr.jpg);
+    height: 5px;
+    margin: 0 auto;
+}
+.blog_title{
+    margin-bottom: 30px;
+}
+.blog_title h3{
+    text-align: center;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 185px;
+    margin: auto;
+    margin-top: -10px;
+}
+.blog_bottom{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+.blog_bottom h4{
+    margin-top: 0px;
+    color: #97455f;
+    
+}
+.blog_bottom p{
+    text-align: justify;
+}
+/*-------------row6------*/
+#row6{
+    height: 300px;
+    width: 100%;
+    background: #fff;
+}
+
+.title_bg{
+    width: 1104px;
+    margin: 0 auto;
+}
+.title_bg h4{
+    width: 200px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -13px;
+    text-transform: uppercase;
+    
+}
+.border_bg{
+    background: url(../image/template_demo_1.jpg);
+    height: 8px;
+    
+}
+.blog_part{
+    margin-top: 30px;
+    color: #999999;
+}
+.blog_part a{
+    text-decoration: none;
+}
+.blog_part img{}
+.blog_part h4{
+    text-align: left;
+    
+}
+
+.part{
+    height: 60px;
+}
+.part img{}
+.part h4{
+    margin: 0px;
+    margin-left: 14px;
+    line-height: 24px;
+}
+.part h4 a{
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+.blog_part p{}
+.box{
+    background: #97455f;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 23px;
+    
+}
+.box h2{
+    font-size: 44px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.box p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.box button{
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 23px;
+    border-radius: 8px;
+    background: white!important;
+    color: #97455f!important;
+}
